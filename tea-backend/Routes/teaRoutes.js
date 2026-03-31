@@ -946,6 +946,7 @@ function infoFromDateStr(dateStr) {
   const month = `${MONTH_NAMES[mm - 1]} ${year}`;
   const day   = DAY_NAMES[d.getDay()];
   return { month, day };
+  
 }
 
 function todayStr() {
