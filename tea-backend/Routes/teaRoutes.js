@@ -957,7 +957,7 @@ function todayStr() {
 function currentTime() {
   return new Date().toLocaleTimeString('en-IN', { hour:'2-digit', minute:'2-digit', hour12:true });
 }
-
+//# 
 // ── Helper: recalculate perdaytea + monthtea ─────────────────
 async function recalcTotals(date, month) {
   const dayEntries   = await TeaEntry.find({ date });
